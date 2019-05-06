@@ -1,6 +1,6 @@
 <?php 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    require "register_user.php";
+    require "../scripts/register_user.php";
     register_user();
 }
 ?>
@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
       <div class="row my-3">
         <div class="col-sm-12">
           <h2 class="mb-2">Register Here</h2>
-          <form class="" action="registration.php" method="post" autocomplete="on">
+          <form class="" action="registration_form.php" method="post" autocomplete="on">
             <div class="form-row">
               <div class="col">
                 <label for="firstName">First Name</label>

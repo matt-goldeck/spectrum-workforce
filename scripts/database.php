@@ -1,10 +1,10 @@
 <?php
-// Note: Replace this with real information in production 
+// NOTE: Replace this with real information in production
 
 $host = "localhost";
 $db   = "goldemat_spectrum";
 $user = "goldemat_admin_1";
-$pass = "SysAdmin1223";
+$pass = "Password1";
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

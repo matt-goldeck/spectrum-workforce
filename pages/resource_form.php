@@ -1,8 +1,9 @@
 <?php
-session_start();
+require "../scripts/check_session.php";
+
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
-    require "upload_resource.php";
-    require "database.php";
+    require "../scripts/upload_resource.php";
+    require "../scripts/database.php";
     
     $result = upload_resource($pdo);
     
