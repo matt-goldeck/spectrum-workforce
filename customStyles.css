@@ -1,0 +1,9 @@
+.spectrumButton{
+  background-color: #0095C7;
+  color: white;
+}
+
+.spectrumCard{
+  border: 3px solid #E9ECEF;
+  box-shadow: 1px 1px 1px 1px black,3px 2px 3px 3px #0095C7;
+}
